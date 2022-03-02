@@ -8,7 +8,8 @@ from .routers import posts, users, authenticaion,Vote
 
 # this commad told to the sqlalchemy to run the create_all commad to create table
 # means this one line of code convert all the sqlAlchemy model into tables
-models.Base.metadata.create_all(bind=database.engine)
+
+# models.Base.metadata.create_all(bind=database.engine)
 
 origins = ["*"]
 app = FastAPI()
