@@ -32,4 +32,4 @@ app.include_router(Vote.router)
 
 @app.get("/")
 def generic():
-    return {"message":"helllo world"}
+    return {"message":"helllo worldLLLLLL"}
