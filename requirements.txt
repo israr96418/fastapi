@@ -1,13 +1,4 @@
-these requirement show install to the run the server
-
-to insall all of the following packages simply run the command on your terminal
-pip install -r requirements.txt(means fille)
-
-if some one not give such a requirement.txt file no worry about that simply run the command
-pip insall fastapi[all]
-
-
-alembic==1.7.6
+# alembic==1.7.6
 anyio==3.5.0
 asgiref==3.5.0
 autopep8==1.6.0
